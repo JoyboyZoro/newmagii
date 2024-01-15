@@ -123,9 +123,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://illegal-filter-bot-f33ec61d18ce.herokuapp.com/".format(FQDN)
+    URL = "https://clone-d6d848f73cc0.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://illegal-filter-bot-f33ec61d18ce.herokuapp.com/".format(FQDN)
+    URL = "https://clone-d6d848f73cc0.herokuapp.com/".format(FQDN)
 
 
 
